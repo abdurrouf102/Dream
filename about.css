@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container-fluid img{
+    border-radius: 50%;
+   
+}
+
+
+.navbar-nav .nav-link{
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-link:hover{
+    box-shadow: 0px 0px 5px;
+    color: aqua;
+    border-radius: 10px 25px;
+}
+
+
+/* navbar end */
+
+
+/* staf section start */
+
+.staf_profile{
+   
+
+}
+
+.staf_title{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+
+.staf_conatiner{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 20px;
+    box-shadow: 0px 0px 5px;
+    margin-top: 50px;
+    width: 950px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+   
+}
+
+.staf_items{
+    box-shadow: 0px 0px 5px;
+    border-radius: 15px;
+    width: 250px;
+    margin-top: 30px;
+    transition: calc(0.2s);
+
+}
+
+.staf_items:hover{
+    transform: scale(1.04);
+}
+
+
+
+.staf_items img{
+    width: 200px;
+    height: 200px;
+    padding: 20px; 
+    border-radius: 50%;
+    
+}
+
+.staf_items p{
+
+font-weight: bold;
+padding-right: 10px;
+padding-left: 10px;
+color: green;
+    
+}
+
+.staf_items h2{
+    color: deeppink;
+
+}
+
+
+.about_comapany{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 100px;
+    gap: 40px;
+    text-align: justify;
+    margin: 160px;
+    font-weight: bold;
+}
+
+.company_image img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* staf section end */
+
+
+.copyright{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: deeppink;
+    background-color:rgb(24, 24, 24);
+    padding: 10px;
+}
+

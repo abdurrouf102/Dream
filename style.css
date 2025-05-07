@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container-fluid img{
+    border-radius: 50%;
+   
+}
+
+
+.navbar-nav .nav-link{
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-link:hover{
+    box-shadow: 0px 0px 5px;
+    color: aqua;
+    border-radius: 10px 25px;
+}
+
+
+/* nav bar end */
+
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.ccc-ccc h1{
+    color: aqua;
+    font-weight: 900;
+}
+
+.ccc-ccc p{
+    font-weight: bold;
+    color: aqua;
+    font-size: 20px;
+
+}
+
+.ccc-ccc a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: yellow;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: red;
+    
+}
+
+.ccc-ccc a:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px;
+    
+}
+
+
+/* banner end */
+
+
+
+/* menu card section start */
+
+.menucard_section h1{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.menucard_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    padding: 30px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+
+.menucard_itymes{
+    box-shadow: 0px 0px 5px;
+    width: 200px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    transition: calc(0.2s);
+
+}
+
+.menucard_itymes:hover{
+    transform: scale(1.04);
+
+}
+
+.menucard_itymes img{
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.menucard_itymes p{
+    font-weight: bold;
+}
+
+.menucard_itymes h3{
+    padding-top: 10px;
+}
+
+.price{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.menucard_itymes a{
+    background-color:black;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    padding: 2px 15px;
+    border-radius: 5px;
+
+}
+
+.menucard_itymes a:hover{
+    background: green;
+    color: white;
+
+}
+
+
+
+
+
+/* menu card section end */
+
+
+/* feedback section :start */
+
+.feedback_section{
+
+}
+
+.feedback_title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 900;
+
+}
+
+.feedback_container{
+
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+
+}
+
+.feedback{
+    background-color: white;
+    box-shadow: 0px 0px 5px;
+    width: 25%;
+    border-radius: 10px;
+
+}
+
+.feedback h4{
+    font-size: 20px;
+    color: green;
+    margin-top: 20px;
+}
+
+.feedback input{
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.feedback textarea{
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.button button{
+    padding: px;
+    background-color: black;
+    color: red;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.button button:hover{
+    background: green;
+    color: white;
+
+}
+
+
+/* feed back section end */
+
+
+/* gallery section start */
+
+.gallery_section{
+
+}
+
+.gallery_title{
+
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    padding-top: 50px;
+    font-weight: 900;
+
+}
+
+.gallery_container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    box-shadow: 0px 0px 5px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+
+}
+
+.gallery_itms{
+
+    margin: 20px;
+
+}
+
+.gallery_itms img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    transition: calc(0.2s);
+
+}
+
+.gallery_itms img:hover{
+    transform: scale(1.04);
+}
+
+
+/* gallery section end */
+
+
+.copyright{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: deeppink;
+    background-color:rgb(24, 24, 24);
+    padding: 10px;
+}
+
+
+
+
+
+
